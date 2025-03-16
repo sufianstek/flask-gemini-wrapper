@@ -16,7 +16,9 @@
 
 2. Clone or download this repository:
 
-3. Create a virtual environment (optional but recommended):
+3. Insert gemini API key to api_credentials.json file
+
+4. Create a virtual environment (optional but recommended):
    ```sh
    On windows:
    python -m virtualenv venv
@@ -29,7 +31,7 @@
    ```
 
 
-4. Install dependencies:
+5. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
