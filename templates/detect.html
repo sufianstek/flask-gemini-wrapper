@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <div>
+    <h2>Result Detection</h2>
+    
+    <table>
+        <tr>
+            <th>Diagnosis</th>
+            <th>Probability(%)</th>
+        </tr>
+        {% for data in dict_output %}
+        <tr>
+            <td>{{data.diagnosis}}</td>
+            <td>{{data.probability}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+    </div>
+    <div>
+        <p>
+            Disclaimer: Please consult doctor for proper assessment, diagnosis and treatment
+        </p>
+    </div>
+
+</body>
+
+</html>

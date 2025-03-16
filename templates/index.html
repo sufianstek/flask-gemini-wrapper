@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+    <h2>Skin disease detection</h2>
+        <br>
+        <form action="/detect" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="file" class="form-control" name="image" id="imageInput" accept="image/*">
+            </div>
+            <br>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg" id="submit">Run Detection <span
+                    class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="loading"></span></button>
+            </div>
+        </form>
+        <div>
+        <br>
+
+        </div>
+</div>
+</body>
+
+</html>
+
